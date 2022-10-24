@@ -1,15 +1,12 @@
-#Sum of even numbers from 1 - 30 using for loop
-sum = 0
+#Even numbers from 1 - 30 using for loop
 for i in range(30):
-    sum += i
-    if sum % 2 == 0:
-        print(sum)
+    if i % 2 == 0:
+        print(f"Even Numbers Using For Loop: ", i)
 
 
-#Sum of odd numbers from 1 - 30 using while loop
-num = 0
-while (num <= 30):
+#Odd numbers from 1 - 30 using while loop
+num = 1
+while num <= 30:
+    if (num % 2 == 0):
+        print(f"Even Numbers Using While Loop: ", num)
     num += 1
-    if(num % 2 == 0):
-        
-        print(num)
